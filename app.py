@@ -591,14 +591,7 @@ def login_page():
                 st.session_state.page = 'register'
                 st.rerun()
 
-        st.markdown("""
-        <div class='demo-box'>
-            <div class='dlabel'>Demo Credentials</div>
-            <div class='dcred'>Username: <strong>admin</strong> &nbsp;·&nbsp; Password: <strong>admin123</strong></div>
-            <div class='dnote'>💡 Or register your own account using the button above</div>
-        </div>
-        </div>
-        """, unsafe_allow_html=True)
+       
     st.markdown("</div>", unsafe_allow_html=True)
 
 
